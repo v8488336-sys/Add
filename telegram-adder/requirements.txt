@@ -1,0 +1,9 @@
+streamlit>=1.32
+telethon>=1.34
+psycopg2-binary>=2.9
+plotly>=5.17
+pandas>=2.0
+PySocks>=1.7
+Faker>=18.0
+requests>=2.31
+cryptg>=0.4

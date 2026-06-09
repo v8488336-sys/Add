@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311", "gcc", "libpq"]
+
+[phases.install]
+cmds = ["pip install -r telegram-adder/requirements.txt"]
+
+[start]
+cmd = "streamlit run telegram-adder/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"

@@ -1,0 +1,27 @@
+# Node / pnpm (not needed on Railway for this Python app)
+node_modules/
+pnpm-lock.yaml
+.npmrc
+.pnpm-store/
+
+# Replit-specific
+.replit
+.replitignore
+.pythonlibs/
+.cache/
+.agents/
+.local/
+
+# Build artifacts
+dist/
+tmp/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+*.pyo
+
+# Dev tools
+artifacts/api-server/
+artifacts/mockup-sandbox/
+lib/
+scripts/

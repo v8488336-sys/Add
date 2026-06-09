@@ -1,0 +1,18 @@
+kind = "web"
+previewPath = "/"
+title = "Telegram Adder Pro"
+version = "1.0.0"
+id = "artifacts/telegram-adder"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = ["/"]
+localPort = 5000
+
+[services.development]
+run = "streamlit run /home/runner/workspace/telegram-adder/app.py --server.port 5000"
